@@ -11,3 +11,22 @@ body.loaded {
   -o-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .medidas-select {
+    top: 28%;
+    left: 60%;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .title {
+    font-size: 5em;
+  }
+
+  .medidas-select {
+    top: 28%;
+    left: 60%;
+  }
+}
