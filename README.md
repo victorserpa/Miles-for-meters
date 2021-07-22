@@ -33,4 +33,4 @@ Este projeto é licenciado sobre a licença MIT - veja [LICENSE.md](LICENSE.md) 
 
 ## Acknowledgments
 
-Este projeto foi construído durante o curso Fullstack Master do [DevPleno](https://devpleno.com). Uma versão online deste projeto pode ser encontrada em: https://palpite-box-two-rosy.vercel.app/.
+Este projeto foi construído durante o curso Fullstack Master do [DevPleno](https://devpleno.com). Uma versão online deste projeto pode ser encontrada em: https://miles-for-meters.vercel.app/ .
