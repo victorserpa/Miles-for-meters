@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Calcular a Distância de milhas em metros" />
+  <meta name="author" content="Victor S. Serpa" />
+  <link href="global.css" rel="stylesheet" />
+  
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link href="styles.css" rel="stylesheet">
+
+  <title>Conversor de Unidades</title>
+</head>
+<body>
+  <div class='container '>
+    <h1 class="text-center "><em>Conversão de Unidades</em></h1>
+    <form class='mt-4'>
+      <div class="row d-flex justify-content-center">
+        <div class="medidas-select mx-2 mb-2 mt-auto ">
+          <select style=" background-color: gray" class="text-truncate mt-auto" id="medidas">
+            <option id="medida">Medidas</option>
+            <option>Milhas</option>
+            <option>Quilômetros</option>
+            <option>Centímetros</option>
+          </select>
+        </div>
+        <div class="col-auto mt-auto">
+          <label class="" for="milhas"><strong><u>Distância</u></strong></label>
+          <input class="input-group-text mb-2 mx-2 mt-auto" id="milhas" placeholder="Distância">
+        </div>
+        <div class="">
+          <label for="metros"><strong><u>Metros</strong></u></label>
+          <input class='input-group-text mb-2 mt-auto'id="metros" disabled placeholder="Distância Metros">
+        </div>
+          <div class="col-auto mt-4 mt-auto">
+            <button type="button" class="btn btn-danger mb-2 mx-2" id="calc">Converter</button>
+          </div>
+      </div>
+    </form>
+    <footer class='mt-4'>
+      <address class='text-center'>
+        <strong>Desenvolvido por Victor Schmucker Serpa.</strong>
+        <br>schmvitoor@gmail.com<br>
+        <u><abbr title="Phone">Phone:</abbr> (55) 47 9 8824-9886</u>
+      </address>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <script src="jquery-3.2.1.min.js"></script>
+
+    <!-- Importar calc -->
+    <script src="index.js"></script>
+</body>
+</html>
